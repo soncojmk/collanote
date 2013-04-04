@@ -1,0 +1,24 @@
+{
+  "name": "ep_themes",
+  "version": "0.0.91",
+  "description": "Change the themes, styles & colors of different parts of Etherpad Lite",
+  "author": {
+    "name": "John McLear",
+    "email": "john@mclear.co.uk",
+    "url": "http://mclear.co.uk"
+  },
+  "contributors": [
+    {
+      "name": "Luke Williams",
+      "email": "xocel@iquidus.org"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "readmeFilename": "README.md",
+  "readme": "# Change the styling of a pad\n\n# Available Themes:\n\n* normal\n* terminal\n* hacker\n* cybergal\n* monokai\n\nAvailable Params\n```\ntheme     = Name of the theme IE hacker or terminal\nfont      = Pad font color\nbg    $
+  "_id": "ep_themes@0.0.91",
+  "_from": "ep_themes@",
+  "scripts": {}
+}
