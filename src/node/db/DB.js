@@ -50,7 +50,15 @@ exports.init = function(callback)
     //everything ok
     else
     {
-      exports.db = db;  
+      // Checks for UTF8
+      db.set("testUTF8", "मानकहिन्दी");
+      db.get("testUTF8", function(err,v){
+        if(v !== "मानकहिन्दी"){
+          console.error("Database is not storing UTF8, this could hurt you a lot");
+          process.exit(1);
+        }
+      })
+      exports.db = db;
       callback(null);
     }
   });
