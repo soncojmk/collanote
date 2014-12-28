@@ -3667,6 +3667,7 @@ function Ace2Inner(){
 
     inCallStackIfNecessary("handleKeyEvent", function()
     {
+top.console.log("alex", evt);
       if (type == "keypress" || (isTypeForSpecialKey && keyCode == 13 /*return*/ ))
       {
         // in IE, special keys don't send keypress, the keydown does the action
