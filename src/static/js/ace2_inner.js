@@ -3714,6 +3714,7 @@ function Ace2Inner(){
           //scrollSelectionIntoView();
           scheduler.setTimeout(function()
           {
+top.console.log("I am here say hello Alex");
             outerWin.scrollBy(-100, 0);
           }, 0);
           specialHandled = true;
