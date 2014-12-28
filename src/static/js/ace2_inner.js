@@ -3667,7 +3667,6 @@ function Ace2Inner(){
 
     inCallStackIfNecessary("handleKeyEvent", function()
     {
-top.console.log("alex", evt);
       if (type == "keypress" || (isTypeForSpecialKey && keyCode == 13 /*return*/ ))
       {
         // in IE, special keys don't send keypress, the keydown does the action
@@ -3716,7 +3715,11 @@ top.console.log("alex", evt);
           scheduler.setTimeout(function()
           {
 top.console.log("I am here say hello Alex");
-            outerWin.scrollBy(-100, 0);
+//            outerWin.scrollBy(-100, 0);
+            var caretOffsetTop = myselection.focusNode.parentNode.offsetTop || myselection.focusNode.offsetTop; // get the carets selection offset in px IE 214
+            // top.console.log(caretOffsetTop);
+            setScrollY(caretOffsetTop); // set the scrollY offset of the viewport on the document
+
           }, 0);
           specialHandled = true;
         }
