@@ -3714,7 +3714,9 @@ function Ace2Inner(){
           //scrollSelectionIntoView();
           scheduler.setTimeout(function()
           {
-top.console.log("I am here say hello Alex");
+top.console.log("I am here say hello Alex again 2");
+    var myselection = document.getSelection(); // get the current caret selection
+
 //            outerWin.scrollBy(-100, 0);
             var caretOffsetTop = myselection.focusNode.parentNode.offsetTop || myselection.focusNode.offsetTop; // get the carets selection offset in px IE 214
             // top.console.log(caretOffsetTop);
