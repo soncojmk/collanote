@@ -1,5 +1,6 @@
 /**
  * Copyright 2009 Google Inc.
+ * Copyright 2015 John McLear.  Etherpad Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,4 +15,4 @@
  * limitations under the License.
  */
 
-module.exports = require('security');
+module.exports = require('secutil');

@@ -26,7 +26,7 @@
 // requires: plugins
 // requires: undefined
 
-var Security = require('./security');
+var Security = require('./secutil');
 var hooks = require('./pluginfw/hooks');
 var _ = require('./underscore');
 var lineAttributeMarker = require('./linestylefilter').lineAttributeMarker;

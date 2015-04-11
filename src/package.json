@@ -33,7 +33,7 @@
                       "graceful-fs"             : "3.0.6",
                       "slide"                   : "1.1.6",
                       "semver"                  : "4.3.3",
-                      "security"                : "1.0.0",
+                      "secutil"                 : "1.0.1",
                       "tinycon"                 : "0.0.1",
                       "underscore"              : "1.5.1",
                       "unorm"                   : "1.3.3",
