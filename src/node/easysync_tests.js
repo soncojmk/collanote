@@ -232,6 +232,11 @@ function runTests() {
     ['insert', "a"],
     ['insert',"c\n", 1]
   ], ["ac\n"]);
+  runMutationTest(10, ["\n"], [
+    ['remove', 1, 1, "\n"],
+    ['insert', "a\n", 1], 
+    ['insert',"c"]
+  ], ["a\n","c"]); //TODO find out if c must have a newline because of unknown constraints
 
   function poolOrArray(attribs) {
     if (attribs.getAttrib) {
