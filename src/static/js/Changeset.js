@@ -802,8 +802,14 @@ exports.textLinesMutator = function (lines) {
           curSplice[1] += L - 1;
           var sline = curSplice.length - 1;
           removed = curSplice[sline].substring(curCol) + removed;
-          curSplice[sline] = curSplice[sline].substring(0, curCol) + lines_get(curSplice[0] + curSplice[1]);
-          curSplice[1] += 1;
+          var line = lines_get(curSplice[0] + curSplice[1]);
+          // if no line follows the splice
+          if (!line) {
+            curSplice[sline] = curSplice[sline].substring(0, curCol);
+          } else {
+            curSplice[sline] = curSplice[sline].substring(0, curCol) + line;
+            curSplice[1] += 1;
+          }
         }
       } else {
         removed = nextKLinesText(L);
@@ -854,6 +860,7 @@ exports.textLinesMutator = function (lines) {
       if (L) {
         var newLines = exports.splitTextLines(text);
         if (isCurLineInSplice()) {
+          //TODO(doc) is this relevant?
           //if (curCol == 0) {
           //curSplice.length--;
           //curSplice[1]--;
@@ -864,22 +871,47 @@ exports.textLinesMutator = function (lines) {
           var sline = curSplice.length - 1;
           var theLine = curSplice[sline];
           var lineCol = curCol;
+          // insert the first new line
           curSplice[sline] = theLine.substring(0, lineCol) + newLines[0];
           curLine++;
           newLines.splice(0, 1);
+          // insert the remaining new lines
           Array.prototype.push.apply(curSplice, newLines);
           curLine += newLines.length;
-          curSplice.push(theLine.substring(lineCol));
-          curCol = 0;
+          // insert the remaining chars from the "old" line (e.g. the line we were in
+          // when we started to insert new lines)
+          // if nothing is left we don't push an empty string
+          if (theLine.substring(lineCol)) {
+            curSplice.push(theLine.substring(lineCol));
+          }
+          curCol = 0; // TODO(doc) why is this not set to the length of last line?
           //}
         } else {
           Array.prototype.push.apply(curSplice, newLines);
           curLine += newLines.length;
         }
       } else {
-        var sline = putCurLineInSplice();
-        curSplice[sline] = curSplice[sline].substring(0, curCol) + text + curSplice[sline].substring(curCol);
-        curCol += text.length;
+        // there are no additional lines
+        if (lines_get(curSplice[0] + curSplice[1]) === undefined) {
+          // find out if there is a line in splice that is not finished processing
+          // if yes, we can add our text to it
+          if (isCurLineInSplice()) {
+            var sline = curSplice.length - 1;
+            curSplice[sline] = curSplice[sline].substring(0, curCol) + text + curSplice[sline].substring(curCol);
+            curCol += text.length;
+          }
+          // if no, we need to add the text in a new line
+          else {
+            Array.prototype.push.apply(curSplice, [text]);
+            curCol += text.length;
+          }
+        } else {
+          // although the line is put into splice, curLine is not increased, because
+          // there may be more chars in the line (newline is not reached)
+          var sline = putCurLineInSplice();
+          curSplice[sline] = curSplice[sline].substring(0, curCol) + text + curSplice[sline].substring(curCol);
+          curCol += text.length;
+        }
       }
       //debugPrint("insert");
     }
