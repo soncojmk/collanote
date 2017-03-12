@@ -51,7 +51,7 @@
 	"pad.importExport.import": "Hər hansı bir mətn faylı və ya sənəd yüklə",
 	"pad.importExport.importSuccessful": "Uğurlu!",
 	"pad.importExport.export": "Hazırkı lövhəni bu şəkildə ixrac et:",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "Adi mətn",
 	"pad.importExport.exportword": "Microsoft Word",

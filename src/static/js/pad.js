@@ -1,5 +1,5 @@
 /**
- * This code is mostly from the old Etherpad. Please help us to comment this code. 
+ * This code is mostly from the old Collanote. Please help us to comment this code. 
  * This helps other people to understand this code better and helps them to improve it.
  * TL;DR COMMENTS ON THIS FILE ARE HIGHLY APPRECIATED
  */
@@ -191,7 +191,7 @@ function handshake()
   var resource =  exports.baseURL.substring(1)  + "socket.io";
   //connect
   socket = pad.socket = io.connect(url, {
-    // Allow deployers to host Etherpad on a non-root path
+    // Allow deployers to host Collanote on a non-root path
     'path': exports.baseURL + "socket.io",
     'resource': resource,
     'reconnectionAttempts': 5,

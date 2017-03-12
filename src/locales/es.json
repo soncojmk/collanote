@@ -56,7 +56,7 @@
 	"pad.importExport.import": "Subir cualquier texto o documento",
 	"pad.importExport.importSuccessful": "¡Éxito!",
 	"pad.importExport.export": "Exporta el pad actual como:",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "Texto sin formato",
 	"pad.importExport.exportword": "Microsoft Word",

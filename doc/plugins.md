@@ -1,9 +1,9 @@
 # Plugins
-Etherpad allows you to extend its functionality with plugins. A plugin registers hooks (functions) for certain events (thus certain features) in Etherpad-lite to execute its own functionality based on these events.
+Collanote allows you to extend its functionality with plugins. A plugin registers hooks (functions) for certain events (thus certain features) in Collanote-lite to execute its own functionality based on these events.
 
-Publicly available plugins can be found in the npm registry (see <http://npmjs.org>). Etherpad-lite's naming convention for plugins is to prefix your plugins with `ep_`. So, e.g. it's `ep_flubberworms`. Thus you can install plugins from npm, using `npm install ep_flubberworm` in etherpad-lite's root directory.
+Publicly available plugins can be found in the npm registry (see <http://npmjs.org>). Collanote-lite's naming convention for plugins is to prefix your plugins with `ep_`. So, e.g. it's `ep_flubberworms`. Thus you can install plugins from npm, using `npm install ep_flubberworm` in etherpad-lite's root directory.
 
-You can also browse to `http://yourEtherpadInstan.ce/admin/plugins`, which will list all installed plugins  and those available on npm. It even provides functionality to search through all available plugins.
+You can also browse to `http://yourCollanoteInstan.ce/admin/plugins`, which will list all installed plugins  and those available on npm. It even provides functionality to search through all available plugins.
 
 ## Folder structure
 A basic plugin usually has the following folder structure:
@@ -41,7 +41,7 @@ A hook registration is a pairs of a hook name and a function reference (filename
 }
 ```
 
-Etherpad-lite will expect the part of the hook definition before the colon to be a javascript file and will try to require it. The part after the colon is expected to be a valid function identifier of that module. So, you have to export your hooks, using [`module.exports`](http://nodejs.org/docs/latest/api/modules.html#modules_modules) and register it in `ep.json` as `ep_<plugin>/path/to/<file>:FUNCTIONNAME`.
+Collanote-lite will expect the part of the hook definition before the colon to be a javascript file and will try to require it. The part after the colon is expected to be a valid function identifier of that module. So, you have to export your hooks, using [`module.exports`](http://nodejs.org/docs/latest/api/modules.html#modules_modules) and register it in `ep.json` as `ep_<plugin>/path/to/<file>:FUNCTIONNAME`.
 You can omit the `FUNCTIONNAME` part, if the exported function has got the same name as the hook. So `"authorize" : "ep_flubberworm/foo"` will call the function `exports.authorize` in `ep_flubberworm/foo.js`
 
 ### Client hooks and server hooks
@@ -89,7 +89,7 @@ Note that it would be far more sane to use `"pre"` in almost any case, but if yo
 Also, note that dependencies should *also* be listed in your package.json, so they can be `npm install`'d automagically when your plugin gets installed.
 
 ## Package definition
-Your plugin must also contain a [package definition file](http://npmjs.org/doc/json.html), called package.json, in the project root - this file contains various metadata relevant to your plugin, such as the name and version number, author, project hompage, contributors, a short description, etc. If you publish your plugin on npm, these metadata are used for package search etc., but it's necessary for Etherpad-lite plugins, even if you don't publish your plugin.
+Your plugin must also contain a [package definition file](http://npmjs.org/doc/json.html), called package.json, in the project root - this file contains various metadata relevant to your plugin, such as the name and version number, author, project hompage, contributors, a short description, etc. If you publish your plugin on npm, these metadata are used for package search etc., but it's necessary for Collanote-lite plugins, even if you don't publish your plugin.
 
 ```json
 {
@@ -104,11 +104,11 @@ Your plugin must also contain a [package definition file](http://npmjs.org/doc/j
 ```
 
 ## Templates
-If your plugin adds or modifies the front end HTML (e.g. adding buttons or changing their functions), you should put the necessary HTML code for such operations in `templates/`, in files of type ".ejs", since Etherpad uses EJS for HTML templating. See the following link for more information about EJS: <https://github.com/visionmedia/ejs>.
+If your plugin adds or modifies the front end HTML (e.g. adding buttons or changing their functions), you should put the necessary HTML code for such operations in `templates/`, in files of type ".ejs", since Collanote uses EJS for HTML templating. See the following link for more information about EJS: <https://github.com/visionmedia/ejs>.
 
 ## Writing and running front-end tests for your plugin
 
-Etherpad allows you to easily create front-end tests for plugins.  
+Collanote allows you to easily create front-end tests for plugins.  
 
 1. Create a new folder
 ```

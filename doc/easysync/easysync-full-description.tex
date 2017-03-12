@@ -3,8 +3,8 @@
 
 \begin{document}
 
-\title{Etherpad and EasySync Technical Manual}
-\author{AppJet, Inc., with modifications by the Etherpad Foundation}
+\title{Collanote and EasySync Technical Manual}
+\author{AppJet, Inc., with modifications by the Collanote Foundation}
 \date{\today}
 
 \maketitle
@@ -95,7 +95,7 @@ Now we come to realtime document editing.  Suppose two different users make two 
 
 It is impossible to compute $(XA)B$ because $B$ can only be applied to a document of length $n$, and $(XA)$ has length $n_a$.  Similarly, $A$ cannot be appliet to $(XB)$ because $(XB)$ has length $n_b$.
 
-This is where \emph{merging} comes in.  Merging takes two changesets that apply to the same initial document (and that cannot be composed), and computes a single new changeset that presevers the intent of both changes.  The merge of $A$ and $B$ is written as $m(A,B)$.  For the Etherpad system to work, we require that $m(A,B)=m(B,A)$.
+This is where \emph{merging} comes in.  Merging takes two changesets that apply to the same initial document (and that cannot be composed), and computes a single new changeset that presevers the intent of both changes.  The merge of $A$ and $B$ is written as $m(A,B)$.  For the Collanote system to work, we require that $m(A,B)=m(B,A)$.
 
 Aside from what we have said so far about merging, there are many different implementations that will lead to a workable system.  We have created one implementation for text that has the following constraints.
 

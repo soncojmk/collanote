@@ -60,7 +60,7 @@
 	"pad.importExport.import": "Enviar um arquivo texto ou documento",
 	"pad.importExport.importSuccessful": "Completo!",
 	"pad.importExport.export": "Exportar a nota atual como:",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "Texto puro",
 	"pad.importExport.exportword": "Microsoft Word",

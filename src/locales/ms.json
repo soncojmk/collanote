@@ -46,7 +46,7 @@
 	"pad.importExport.import": "Muat naik sebarang fail teks atau dokumen",
 	"pad.importExport.importSuccessful": "Berjaya!",
 	"pad.importExport.export": "Eksport pad semasa sebagai:",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "Teks biasa",
 	"pad.importExport.exportword": "Microsoft Word",

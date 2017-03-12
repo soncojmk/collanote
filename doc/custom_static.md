@@ -1,5 +1,5 @@
 # Custom static files
-Etherpad allows you to include your own static files in the browser, by modifying the files in `static/custom`.
+Collanote allows you to include your own static files in the browser, by modifying the files in `static/custom`.
 
 * `index.js` Javascript that'll be run in `/`
 * `index.css` Stylesheet affecting `/`

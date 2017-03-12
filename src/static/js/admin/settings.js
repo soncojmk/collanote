@@ -46,8 +46,8 @@ $(document).ready(function () {
     }
   });
 
-  /* Tell Etherpad Server to restart */
-  $('#restartEtherpad').on('click', function(){
+  /* Tell Collanote Server to restart */
+  $('#restartCollanote').on('click', function(){
     socket.emit("restartServer");
   });
 

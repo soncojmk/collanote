@@ -46,7 +46,7 @@
 	"pad.importExport.import": "Cargar un tèxte o un document",
 	"pad.importExport.importSuccessful": "Capitat !",
 	"pad.importExport.export": "Exportar lo Pad actual coma :",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "Tèxte brut",
 	"pad.importExport.exportword": "Microsoft Word",

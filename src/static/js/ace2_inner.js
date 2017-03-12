@@ -1,5 +1,5 @@
 /**
- * This code is mostly from the old Etherpad. Please help us to comment this code.
+ * This code is mostly from the old Collanote. Please help us to comment this code.
  * This helps other people to understand this code better and helps them to improve it.
  * TL;DR COMMENTS ON THIS FILE ARE HIGHLY APPRECIATED
  */
@@ -3700,7 +3700,7 @@ function Ace2Inner(){
         }
       }
       else if (evt.key === "Dead"){
-        // If it's a dead key we don't want to do any Etherpad behavior.
+        // If it's a dead key we don't want to do any Collanote behavior.
         stopped = true;
         return true;
       }

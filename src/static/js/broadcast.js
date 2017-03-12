@@ -1,5 +1,5 @@
 /**
- * This code is mostly from the old Etherpad. Please help us to comment this code. 
+ * This code is mostly from the old Collanote. Please help us to comment this code. 
  * This helps other people to understand this code better and helps them to improve it.
  * TL;DR COMMENTS ON THIS FILE ARE HIGHLY APPRECIATED
  */
@@ -35,7 +35,7 @@ function loadBroadcastJS(socket, sendSocketMsg, fireWhenAllScriptsAreLoaded, Bro
 {
   var changesetLoader = undefined;
 
-  // Below Array#indexOf code was direct pasted by AppJet/Etherpad, licence unknown. Possible source: http://www.tutorialspoint.com/javascript/array_indexof.htm
+  // Below Array#indexOf code was direct pasted by AppJet/Collanote, licence unknown. Possible source: http://www.tutorialspoint.com/javascript/array_indexof.htm
   if (!Array.prototype.indexOf)
   {
     Array.prototype.indexOf = function(elt /*, from*/ )

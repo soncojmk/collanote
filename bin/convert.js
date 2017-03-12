@@ -421,7 +421,7 @@ function convertPad(padId, callback)
 }
 
 /**
- * This parses a Page like Etherpad uses them in the databases
+ * This parses a Page like Collanote uses them in the databases
  * The offsets descripes the length of a unit in the page, the data are
  * all values behind each other
  */

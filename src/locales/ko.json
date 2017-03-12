@@ -51,7 +51,7 @@
 	"pad.importExport.import": "텍스트 파일이나 문서 올리기",
 	"pad.importExport.importSuccessful": "성공!",
 	"pad.importExport.export": "다음으로 현재 패드 내보내기:",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "일반 텍스트",
 	"pad.importExport.exportword": "Microsoft Word",

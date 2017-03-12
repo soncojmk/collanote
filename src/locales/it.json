@@ -51,7 +51,7 @@
 	"pad.importExport.import": "Carica un file di testo o un documento",
 	"pad.importExport.importSuccessful": "Riuscito!",
 	"pad.importExport.export": "Esportare il Pad corrente come:",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "Testo normale",
 	"pad.importExport.exportword": "Microsoft Word",

@@ -80,7 +80,7 @@ describe("indentation button", function(){
     $firstTextElement.sendkeys("line with '{{}'{enter}");
 
     helper.waitFor(function(){
-      // wait for Etherpad to split four lines into separated divs
+      // wait for Collanote to split four lines into separated divs
       var $fourthLine = inner$("div").first().next().next().next();
       return $fourthLine.text().indexOf("line with '{'") === 0;
     }).done(function(){
@@ -128,7 +128,7 @@ describe("indentation button", function(){
     $firstTextElement.sendkeys("line 2{enter}");
 
     helper.waitFor(function(){
-      // wait for Etherpad to split two lines into separated divs
+      // wait for Collanote to split two lines into separated divs
       var $secondLine = inner$("div").first().next();
       return $secondLine.text().indexOf("line 2") === 0;
     }).done(function(){

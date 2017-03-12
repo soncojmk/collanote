@@ -1,13 +1,13 @@
 # Localization
-Etherpad provides a  multi-language user interface, that's apart from your users' content, so users from different countries can collaborate on a single document, while still having the user interface displayed in their mother tongue.
+Collanote provides a  multi-language user interface, that's apart from your users' content, so users from different countries can collaborate on a single document, while still having the user interface displayed in their mother tongue.
 
 
 ## Translating
 We rely on http://translatewiki.net to handle the translation process for us, so if you'd like to help...
 
 1. sign up at http://translatewiki.net
-2. Visit our [TWN project page](https://translatewiki.net/wiki/Translating:Etherpad_lite)
-3. Click on `Translate Etherpad lite interface`
+2. Visit our [TWN project page](https://translatewiki.net/wiki/Translating:Collanote_lite)
+3. Click on `Translate Collanote lite interface`
 4. Choose a target language, you'd like to translate our interface to, and hit `Fetch`
 5. Start translating!
 
@@ -83,7 +83,7 @@ Everytime the http server is started, it will auto-detect your messages and merg
 
 ### Overwrite core messages
 
-You can overwrite Etherpad's core messages in your plugin's locale files.
+You can overwrite Collanote's core messages in your plugin's locale files.
 For example, if you want to replace `Chat` with `Notes`, simply add...
 
 *ep_your-plugin/locales/en.json*

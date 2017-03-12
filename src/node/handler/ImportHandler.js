@@ -5,7 +5,7 @@
 /*
  * 2011 Peter 'Pita' Martischka (Primary Technology Ltd)
  * 2012 Iván Eixarch
- * 2014 John McLear (Etherpad Foundation / McLear Ltd)
+ * 2014 John McLear (Collanote Foundation / McLear Ltd)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -30,7 +30,7 @@ var ERR = require("async-stacktrace")
   , formidable = require('formidable')
   , os = require("os")
   , importHtml = require("../utils/ImportHtml")
-  , importEtherpad = require("../utils/ImportEtherpad")
+  , importCollanote = require("../utils/ImportEtherpad")
   , log4js = require("log4js")
   , hooks = require("ep_etherpad-lite/static/js/pluginfw/hooks.js");
 
@@ -119,9 +119,9 @@ exports.doImport = function(req, res, padId)
     },
     function(callback) {
       var fileEnding = path.extname(srcFile).toLowerCase()
-      var fileIsEtherpad = (fileEnding === ".etherpad");
+      var fileIsCollanote = (fileEnding === ".etherpad");
 
-      if(fileIsEtherpad){
+      if(fileIsCollanote){
         // we do this here so we can see if the pad has quit ea few edits
         padManager.getPad(padId, function(err, _pad){
           var headCount = _pad.head;
@@ -131,7 +131,7 @@ exports.doImport = function(req, res, padId)
           }else{
             fs.readFile(srcFile, "utf8", function(err, _text){
               directDatabaseAccess = true;
-              importEtherpad.setPadRaw(padId, _text, function(err){
+              importCollanote.setPadRaw(padId, _text, function(err){
                 callback();
               });
             });

@@ -3,7 +3,7 @@
 #Move to the base folder
 cd `dirname $0`
 
-#start Etherpad
+#start Collanote
 ../../../bin/run.sh > /dev/null &
 sleep 10
 

@@ -43,7 +43,7 @@ exports.expressCreateServer = function (hook_name, args, cb) {
     });
   });
 
-  //The Etherpad client side sends information about how a disconnect happened
+  //The Collanote client side sends information about how a disconnect happened
   args.app.post('/ep/pad/connection-diagnostic-info', function(req, res) {
     new formidable.IncomingForm().parse(req, function(err, fields, files) { 
       clientLogger.info("DIAGNOSTIC-INFO: " + fields.diagnosticInfo);
@@ -51,7 +51,7 @@ exports.expressCreateServer = function (hook_name, args, cb) {
     });
   });
 
-  //The Etherpad client side sends information about client side javscript errors
+  //The Collanote client side sends information about client side javscript errors
   args.app.post('/jserror', function(req, res) {
     new formidable.IncomingForm().parse(req, function(err, fields, files) { 
       try {

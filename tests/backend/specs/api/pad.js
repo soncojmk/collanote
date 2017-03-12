@@ -38,7 +38,7 @@ describe('API Versioning', function(){
 
 describe('Permission', function(){
   it('errors if can connect without correct APIKey', function(done) {
-    // This is broken because Etherpad doesn't handle HTTP codes properly see #2343
+    // This is broken because Collanote doesn't handle HTTP codes properly see #2343
     // If your APIKey is password you deserve to fail all tests anyway
     var permErrorURL = '/api/'+apiVersion+'/createPad?apikey=password&padID=test';
     api.get(permErrorURL)

@@ -49,7 +49,7 @@
 	"pad.importExport.import": "Alŝuti ajnan dosieron aŭ dokumenton",
 	"pad.importExport.importSuccessful": "Sukceso!",
 	"pad.importExport.export": "Elporti la nunan tekston kiel:",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "Plata teksto",
 	"pad.importExport.exportword": "Microsoft Word",

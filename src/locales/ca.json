@@ -53,7 +53,7 @@
 	"pad.importExport.import": "Puja qualsevol fitxer de text o document",
 	"pad.importExport.importSuccessful": "Hi ha hagut èxit!",
 	"pad.importExport.export": "Exporta el pad actual com a:",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "Text net",
 	"pad.importExport.exportword": "Microsoft Word",

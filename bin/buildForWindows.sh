@@ -66,4 +66,4 @@ zip -9 -r $START_FOLDER/etherpad-lite-win.zip ./*
 echo "clean up..."
 rm -rf $TMP_FOLDER
 
-echo "Finished. You can find the zip in the Etherpad root folder, it's called etherpad-lite-win.zip"
+echo "Finished. You can find the zip in the Collanote root folder, it's called etherpad-lite-win.zip"

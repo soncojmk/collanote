@@ -2,7 +2,7 @@
 
 <!-- type=misc -->
 
-The goal of this documentation is to comprehensively explain Etherpad,
+The goal of this documentation is to comprehensively explain Collanote,
 both from a reference as well as a conceptual point of view.
 
 Where appropriate, property types, method arguments, and the arguments

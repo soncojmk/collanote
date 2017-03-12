@@ -47,7 +47,7 @@
 	"pad.importExport.import": "Settu inn hverskyns texta eða skjal",
 	"pad.importExport.importSuccessful": "Heppnaðist!",
 	"pad.importExport.export": "Flytja út núverandi skrifblokk sem:",
-	"pad.importExport.exportetherpad": "Etherpad netskrifblokk",
+	"pad.importExport.exportetherpad": "Collanote netskrifblokk",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "Hreinn texti",
 	"pad.importExport.exportword": "Microsoft Word",

@@ -8,7 +8,7 @@
 			"Siebrand"
 		]
 	},
-	"index.newPad": "Used as button text.\nA pad, in the context of Etherpad, is a notepad, something to write on.",
+	"index.newPad": "Used as button text.\nA pad, in the context of Collanote, is a notepad, something to write on.",
 	"index.createOpenPad": "label for an input field that allows the user to choose a custom name for his new pad. In case the pad already exists the user will be redirected to its url.",
 	"pad.toolbar.bold.title": "Used as tooltip of button",
 	"pad.toolbar.italic.title": "Used as tooltip of button",
@@ -48,7 +48,7 @@
 	"pad.importExport.import": "Used as HTML <code><nowiki><h2></nowiki></code> heading.\n\nPreceded by the parent heading {{msg-etherpadlite|Pad.importExport.import_export}}.",
 	"pad.importExport.importSuccessful": "Used as success message to indicate that the pad has been imported successfully.\n{{Identical|Successful}}",
 	"pad.importExport.export": "Used as HTML <code><nowiki><h2></nowiki></code> heading.\n\nFollowed by the following link texts:\n* {{msg-etherpadlite|Pad.importExport.exporthtml}}\n* {{msg-etherpadlite|Pad.importExport.exportplain}}\n* {{msg-etherpadlite|Pad.importExport.exportword}}\n* {{msg-etherpadlite|Pad.importExport.exportpdf}}\n* {{msg-etherpadlite|Pad.importExport.exportopen}}\n* {{msg-etherpadlite|Pad.importExport.exportdokuwiki}}",
-	"pad.importExport.exportetherpad": "{{Identical|Etherpad}}",
+	"pad.importExport.exportetherpad": "{{Identical|Collanote}}",
 	"pad.importExport.exporthtml": "Used as link text, preceded by {{msg-etherpadlite|Pad.importExport.export}}.\n{{Related|Pad.importExport.export}}\n{{Identical|HTML}}",
 	"pad.importExport.exportplain": "Used as link text, preceded by {{msg-etherpadlite|Pad.importExport.export}}.\n{{Related|Pad.importExport.export}}\n{{Identical|Plain text}}",
 	"pad.importExport.exportword": "Used as link text, preceded by {{msg-etherpadlite|Pad.importExport.export}}.\n{{Related|Pad.importExport.export}}",

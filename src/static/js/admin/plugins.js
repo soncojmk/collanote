@@ -226,7 +226,7 @@ $(document).ready(function () {
   socket.on('finished:install', function(data) {
     if(data.error) {
       if(data.code === "EPEERINVALID"){
-        alert("This plugin requires that you update Etherpad so it can operate in it's true glory");
+        alert("This plugin requires that you update Collanote so it can operate in it's true glory");
       }
       alert('An error occurred while installing '+data.plugin+' \n'+data.error)
       $('#installed-plugins .'+data.plugin).remove()
