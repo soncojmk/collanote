@@ -31,13 +31,13 @@ The logfile location is defined in startup script or the log is directly shown i
 
 **Our goal is to iterate in small steps. Release often, release early. Evolution instead of a revolution**
 
-## General goals of Etherpad
+## General goals of Collanote
 To make sure everybody is going in the same direction:
 * easy to install for admins and easy to use for people
 * easy to integrate into other apps, but also usable as standalone
 * using less resources on server side
 * extensible, as much functionality should be extendable with plugins so changes don't have to be done in core.
-Also, keep it maintainable. We don't wanna end up as the monster Etherpad was!
+Also, keep it maintainable. We don't wanna end up as the monster Collanote was!
 
 ## How to work with git?
 * Don't work in your master branch.

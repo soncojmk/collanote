@@ -46,7 +46,7 @@
 	"pad.importExport.import": "Tekstowu dataju abo dokument nahrać",
 	"pad.importExport.importSuccessful": "Wuspěšny!",
 	"pad.importExport.export": "Aktualny zapisnik eksportować jako:",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "Luty tekst",
 	"pad.importExport.exportword": "Microsoft Word",

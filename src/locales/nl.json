@@ -49,7 +49,7 @@
 	"pad.importExport.import": "Tekstbestand of document uploaden",
 	"pad.importExport.importSuccessful": "Afgerond",
 	"pad.importExport.export": "Huidige pad exporteren als",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "Tekst zonder opmaak",
 	"pad.importExport.exportword": "Microsoft Word",

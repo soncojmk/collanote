@@ -51,7 +51,7 @@
 	"pad.importExport.import": "Herhangi bir metin dosyası ya da belgesi yükle",
 	"pad.importExport.importSuccessful": "Başarılı!",
 	"pad.importExport.export": "Mevcut bloknotu şu olarak dışa aktar:",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "Düz metin",
 	"pad.importExport.exportword": "Microsoft Word",

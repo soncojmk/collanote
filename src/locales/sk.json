@@ -47,7 +47,7 @@
 	"pad.importExport.import": "Nahrať ľubovoľný textový súbor alebo dokument",
 	"pad.importExport.importSuccessful": "Import úspešný!",
 	"pad.importExport.export": "Exportovať aktuálny Pad ako:",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "Čistý text",
 	"pad.importExport.exportword": "Microsoft Word",

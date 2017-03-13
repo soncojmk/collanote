@@ -24,7 +24,7 @@ var attributeBlackList = ["id"];
 var jsonableList = ["pool"];
 
 /**
- * Copied from the Etherpad source code. It converts Windows line breaks to Unix line breaks and convert Tabs to spaces
+ * Copied from the Collanote source code. It converts Windows line breaks to Unix line breaks and convert Tabs to spaces
  * @param txt
  */
 exports.cleanText = function (txt) {

@@ -56,7 +56,7 @@
 	"pad.importExport.import": "上载任何文本文件或档案",
 	"pad.importExport.importSuccessful": "成功！",
 	"pad.importExport.export": "当前记事本导出为：",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "纯文本",
 	"pad.importExport.exportword": "Microsoft Word",

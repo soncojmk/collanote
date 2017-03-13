@@ -22,5 +22,5 @@ then
   cp -a /tmp/node-v${VER}-linux-${ARCH}/* /usr/local/
 fi
 
-# Create Etherpad user
+# Create Collanote user
 adduser --system etherpad

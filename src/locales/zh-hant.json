@@ -53,7 +53,7 @@
 	"pad.importExport.import": "上載任何文字檔或文件",
 	"pad.importExport.importSuccessful": "完成！",
 	"pad.importExport.export": "匯出當前pad為：",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "純文字",
 	"pad.importExport.exportword": "Microsoft Word",

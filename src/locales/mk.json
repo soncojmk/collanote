@@ -47,7 +47,7 @@
 	"pad.importExport.import": "Подигање на било каква текстуална податотека или документ",
 	"pad.importExport.importSuccessful": "Успешно!",
 	"pad.importExport.export": "Извези ја тековната тетратка како",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "Прост текст",
 	"pad.importExport.exportword": "Microsoft Word",

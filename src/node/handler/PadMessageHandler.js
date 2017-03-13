@@ -263,7 +263,7 @@ exports.handleMessage = function(client, message)
 
         // Simulate using the load testing tool
         if(!sessioninfos[client.id].auth){
-          console.error("Auth was never applied to a session.  If you are using the stress-test tool then restart Etherpad and the Stress test tool.")
+          console.error("Auth was never applied to a session.  If you are using the stress-test tool then restart Collanote and the Stress test tool.")
           return;
         }else{
           var auth = sessioninfos[client.id].auth;
@@ -595,7 +595,7 @@ function handleUserInfoUpdate(client, message)
  * to the latest revision, then add it to the pad, broadcast the changes
  * to all other clients, and send a confirmation to the submitting client.
  *
- * This function is based on a similar one in the original Etherpad.
+ * This function is based on a similar one in the original Collanote.
  *   See https://github.com/ether/pad/blob/master/etherpad/src/etherpad/collab/collab_server.js in the function applyUserChanges()
  *
  * @param client the client that send this message
@@ -885,7 +885,7 @@ exports.updatePadClients = function(pad, callback)
 }
 
 /**
- * Copied from the Etherpad Source Code. Don't know what this method does excatly...
+ * Copied from the Collanote Source Code. Don't know what this method does excatly...
  */
 function _correctMarkersInPad(atext, apool) {
   var text = atext.text;
@@ -1392,7 +1392,7 @@ function handleChangesetRequest(client, message)
 
 
 /**
- * Tries to rebuild the getChangestInfo function of the original Etherpad
+ * Tries to rebuild the getChangestInfo function of the original Collanote
  * https://github.com/ether/pad/blob/master/etherpad/src/etherpad/control/pad/pad_changeset_control.js#L144
  */
 function getChangesetInfo(padId, startNum, endNum, granularity, callback)
@@ -1546,7 +1546,7 @@ function getChangesetInfo(padId, startNum, endNum, granularity, callback)
 }
 
 /**
- * Tries to rebuild the getPadLines function of the original Etherpad
+ * Tries to rebuild the getPadLines function of the original Collanote
  * https://github.com/ether/pad/blob/master/etherpad/src/etherpad/control/pad/pad_changeset_control.js#L263
  */
 function getPadLines(padId, revNum, callback)
@@ -1598,7 +1598,7 @@ function getPadLines(padId, revNum, callback)
 }
 
 /**
- * Tries to rebuild the composePadChangeset function of the original Etherpad
+ * Tries to rebuild the composePadChangeset function of the original Collanote
  * https://github.com/ether/pad/blob/master/etherpad/src/etherpad/control/pad/pad_changeset_control.js#L241
  */
 function composePadChangesets(padId, startNum, endNum, callback)

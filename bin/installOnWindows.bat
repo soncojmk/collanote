@@ -7,7 +7,7 @@ cd /D "%~dp0\.."
 cmd /C node -e "" || ( echo "Please install node.js ( http://nodejs.org )" && exit /B 1 )
 
 echo _
-echo Ensure that all dependencies are up to date...  If this is the first time you have run Etherpad please be patient.
+echo Ensure that all dependencies are up to date...  If this is the first time you have run Collanote please be patient.
 cmd /C npm install src/ --loglevel warn || exit /B 1
 
 echo _
@@ -31,4 +31,4 @@ IF NOT EXIST settings.json (
 )
 
 echo _
-echo Installed Etherpad!  To run Etherpad type start.bat
+echo Installed Collanote!  To run Collanote type start.bat

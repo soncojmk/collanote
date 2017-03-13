@@ -25,7 +25,7 @@ function setPadHTML(pad, html, callback)
 
   var $ = cheerio.load(html);
 
-  // Appends a line break, used by Etherpad to ensure a caret is available
+  // Appends a line break, used by Collanote to ensure a caret is available
   // below the last line of an import
   $('body').append("<p></p>");
 

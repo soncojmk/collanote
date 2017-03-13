@@ -36,7 +36,7 @@ exports.root = path.normalize(path.join(npm.dir, ".."));
 /**
  * The app title, visible e.g. in the browser window
  */
-exports.title = "Etherpad";
+exports.title = "Collanote";
 
 /**
  * The app favicon fully specified url, visible e.g. in the browser window
@@ -83,7 +83,7 @@ exports.dbSettings = { "filename" : path.join(exports.root, "dirty.db") };
 /**
  * The default Text of a new pad
  */
-exports.defaultPadText = "Welcome to Etherpad!\n\nThis pad text is synchronized as you type, so that everyone viewing this page sees the same text. This allows you to collaborate seamlessly on documents!\n\nEtherpad on Github: https:\/\/github.com\/ether\/etherpad-lite\n";
+exports.defaultPadText = "Welcome to Collanote!\n\nThis pad text is synchronized as you type, so that everyone viewing this page sees the same text. This allows you to collaborate seamlessly on documents!\n\nCollanote on Github: https:\/\/github.com\/ether\/etherpad-lite\n";
 
 /**
  * The default Pad Settings for a user (Can be overridden by changing the setting

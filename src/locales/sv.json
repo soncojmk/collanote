@@ -48,7 +48,7 @@
 	"pad.importExport.import": "Ladda upp textfiler eller dokument",
 	"pad.importExport.importSuccessful": "Åtgärden slutfördes!",
 	"pad.importExport.export": "Export aktuellt block som:",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "Oformaterad text",
 	"pad.importExport.exportword": "Microsoft Word",

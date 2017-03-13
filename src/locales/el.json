@@ -50,7 +50,7 @@
 	"pad.importExport.import": "Αποστολή οποιουδήποτε αρχείου κειμένου ή εγγράφου",
 	"pad.importExport.importSuccessful": "Επιτυχής!",
 	"pad.importExport.export": "Εξαγωγή τρέχοντος pad ως:",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "Απλό κείμενο",
 	"pad.importExport.exportword": "Microsoft Word",

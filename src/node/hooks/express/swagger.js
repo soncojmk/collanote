@@ -85,7 +85,7 @@ var API = {
     },
     "createIfNotExistsFor" : {
       "func": "createGroupIfNotExistsFor",
-      "description": "this functions helps you to map your application group ids to Etherpad group ids",
+      "description": "this functions helps you to map your application group ids to Collanote group ids",
       "response": {"groupID":{"type":"string"}}
     },
     "delete" : {
@@ -123,7 +123,7 @@ var API = {
     },
     "createIfNotExistsFor": {
       "func": "createAuthorIfNotExistsFor",
-      "description": "this functions helps you to map your application author ids to Etherpad author ids",
+      "description": "this functions helps you to map your application author ids to Collanote author ids",
       "response": {"authorID":{"type":"string"}}
     },
     "listPads": {

@@ -34,7 +34,7 @@ Default: false
 
 Default: "unnamed"
 
-Example: `userName=Etherpad%20User`
+Example: `userName=Collanote%20User`
 
 ## userColor
  * String (css hex color value)

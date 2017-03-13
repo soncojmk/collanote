@@ -58,7 +58,7 @@
 	"pad.importExport.import": "Lähetä mikä tahansa tekstitiedosto tai asiakirja",
 	"pad.importExport.importSuccessful": "Onnistui!",
 	"pad.importExport.export": "Vie muistio muodossa:",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "Muotoilematon teksti",
 	"pad.importExport.exportword": "Microsoft Word",

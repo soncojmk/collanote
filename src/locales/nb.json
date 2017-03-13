@@ -49,7 +49,7 @@
 	"pad.importExport.import": "Last opp tekstfil eller dokument",
 	"pad.importExport.importSuccessful": "Vellykket!",
 	"pad.importExport.export": "Eksporter blokken som:",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "Ren tekst",
 	"pad.importExport.exportword": "Microsoft Word",

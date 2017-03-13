@@ -46,7 +46,7 @@
 	"pad.importExport.import": "Xubir cualquier ficheru o documentu de testu",
 	"pad.importExport.importSuccessful": "¡Correuto!",
 	"pad.importExport.export": "Esportar el bloc actual como:",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "Testu simple",
 	"pad.importExport.exportword": "Microsoft Word",

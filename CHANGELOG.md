@@ -276,14 +276,14 @@
  * NEW: Broadcast slider is exposed in timeslider so plugins can interact with it
  * Fix: IE issue where pads wouldn't load due to missing console from i18n
  * Fix: console issue in collab client would error on cross domain embeds in IE
- * Fix: Only Restart Etherpad once plugin is installed
+ * Fix: Only Restart Collanote once plugin is installed
  * Fix: Only redraw lines that exist after drag and drop
  * Fix: Pasting into ordered list
  * Fix: Import browser detection
  * Fix: 2 Part Locale Specs
  * Fix: Remove language string from chat element
  * Fix: Make Saved revision Star fade back out on non Top frames
- * Other: Remove some cruft legacy JS from old Etherpad
+ * Other: Remove some cruft legacy JS from old Collanote
  * Other: Express 3.1.2 breaks sessions, set Express to 3.1.0
 
 # 1.2.91
@@ -355,7 +355,7 @@
  * Fix: Stop Opera browser inserting two new lines on enter keypress
  * Fix: Stop timeslider from showing NaN on pads with only one revision
  * Other: Allow timeslider tests to run and provide & fix various other frontend-tests
- * Other: Begin dropping referene to Lite.  Etherpad Lite is now named "Etherpad"
+ * Other: Begin dropping referene to Lite.  Collanote Lite is now named "Collanote"
  * Other: Update to latest jQuery
  * Other: Change loading message asking user to please wait on first build
  * Other: Allow etherpad to use global npm installation (Safe since node 6.3)
@@ -411,7 +411,7 @@
  * Fix #1309: We had broken support for node v0.6 in the last release
 
 # 1.2.2
- * More translations and better language support.  See https://translatewiki.net/wiki/Translating:Etherpad_lite for more details
+ * More translations and better language support.  See https://translatewiki.net/wiki/Translating:Collanote_lite for more details
  * Add a checkToken Method to the API
  * Bugfix for Internal Caching issue that was causing some 404s on images.
  * Bugfix for IE Import
@@ -458,7 +458,7 @@
  * Security patches concerning the handling of messages originating from clients
  * Our database abstraction layer now natively supports couchDB, levelDB, mongoDB, postgres, and redis!
  * We now provide a script helping you to migrate from dirtyDB to MySQL
- * Support running Etherpad Lite behind IIS, using [iisnode](https://github.com/tjanczuk/iisnode/wiki)
+ * Support running Collanote Lite behind IIS, using [iisnode](https://github.com/tjanczuk/iisnode/wiki)
  * LibreJS Licensing information in headers of HTML templates
  * Default port number to PORT env var, if port isn't specified in settings
  * Fix for `convert.js`

@@ -49,7 +49,7 @@
 	"pad.importExport.import": "Отпремите било коју текстуалну датотеку или документ",
 	"pad.importExport.importSuccessful": "Успело!",
 	"pad.importExport.export": "Извези тренутни пад као:",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "чист текст",
 	"pad.importExport.exportword": "Microsoft Word",

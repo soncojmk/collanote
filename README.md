@@ -1,19 +1,19 @@
 # A really-real time collaborative word processor for the web
-![alt text](http://i.imgur.com/zYrGkg3.gif "Etherpad in action on PrimaryPad")
+![alt text](http://i.imgur.com/zYrGkg3.gif "Collanote in action on PrimaryPad")
 
 # About
-Etherpad is a really-real time collaborative editor maintained by the Etherpad Community.
+Collanote is a really-real time collaborative editor maintained by the Collanote Community.
 
-Etherpad is written in JavaScript (99.9%) on both the server and client so it's easy for developers to maintain and add new features.  Because of this Etherpad has tons of customizations that you can leverage.
+Collanote is written in JavaScript (99.9%) on both the server and client so it's easy for developers to maintain and add new features.  Because of this Collanote has tons of customizations that you can leverage.
 
-Etherpad is designed to be easily embeddable and provides a [HTTP API](https://github.com/ether/etherpad-lite/wiki/HTTP-API)
+Collanote is designed to be easily embeddable and provides a [HTTP API](https://github.com/ether/etherpad-lite/wiki/HTTP-API)
 that allows your web application to manage pads, users and groups. It is recommended to use the [available client implementations](https://github.com/ether/etherpad-lite/wiki/HTTP-API-client-libraries) in order to interact with this API. 
 
 There is also a [jQuery plugin](https://github.com/ether/etherpad-lite-jquery-plugin) that helps you to embed Pads into your website.
 
-There's also a full-featured plugin framework, allowing you to easily add your own features.  By default your Etherpad is rather sparse and because Etherpad takes a lot of it's inspiration from Wordpress plugins are really easy to install and update.  Once you have Etherpad installed you should visit the plugin page and take control.
+There's also a full-featured plugin framework, allowing you to easily add your own features.  By default your Collanote is rather sparse and because Collanote takes a lot of it's inspiration from Wordpress plugins are really easy to install and update.  Once you have Collanote installed you should visit the plugin page and take control.
 
-Finally, Etherpad comes with translations into most languages!  Users are automatically delivered the correct language for their local settings.
+Finally, Collanote comes with translations into most languages!  Users are automatically delivered the correct language for their local settings.
 
 
 **Visit [beta.etherpad.org](http://beta.etherpad.org) to test it live.**
@@ -22,7 +22,7 @@ Also, check out the **[FAQ](https://github.com/ether/etherpad-lite/wiki/FAQ)**, 
 
 # Installation
 
-Etherpad works with node v0.10+ (except 6.0 and 6.1).
+Collanote works with node v0.10+ (except 6.0 and 6.1).
 
 ## Windows
 
@@ -58,13 +58,13 @@ If cloning to a subdirectory within another project, you may need to do the foll
 You'll need gzip, git, curl, libssl develop libraries, python and gcc.  
 - *For Debian/Ubuntu*: `apt-get install gzip git curl python libssl-dev pkg-config build-essential`  
 - *For Fedora/CentOS*: `yum install gzip git curl python openssl-devel && yum groupinstall "Development Tools"`
-- *For FreeBSD*: `portinstall node, npm, git (optional)`
+- *For FreeBSD*: `portinstall node, npm, curl, git (optional)`
 
 Additionally, you'll need [node.js](http://nodejs.org) installed, Ideally the latest stable version, we recommend installing/compiling nodejs from source (avoiding apt).
 
 **As any user (we recommend creating a separate user called etherpad):**
 
-1. Move to a folder where you want to install Etherpad. Clone the git repository `git clone git://github.com/ether/etherpad-lite.git`
+1. Move to a folder where you want to install Collanote. Clone the git repository `git clone git://github.com/ether/etherpad-lite.git`
 2. Change into the new directory containing the cloned source code `cd etherpad-lite`
 
 Now, run `bin/run.sh` and open <http://127.0.0.1:9001> in your browser. 
@@ -76,13 +76,13 @@ You like it? [Next steps](#next-steps).
 # Next Steps
 
 ## Tweak the settings
-You can initially modify the settings in `settings.json`. (If you need to handle multiple settings files, you can pass the path to a settings file to `bin/run.sh` using the `-s|--settings` option. This allows you to run multiple Etherpad instances from the same installation.)  Once you have access to your /admin section settings can be modified through the web browser.
+You can initially modify the settings in `settings.json`. (If you need to handle multiple settings files, you can pass the path to a settings file to `bin/run.sh` using the `-s|--settings` option. This allows you to run multiple Collanote instances from the same installation.)  Once you have access to your /admin section settings can be modified through the web browser.
 
 You should use a dedicated database such as "mysql", if you are planning on using etherpad-in a production environment, since the "dirtyDB" database driver is only for testing and/or development purposes.
 
 ## Plugins and themes
 
-Etherpad is very customizable through plugins. Instructions for installing themes and plugins can be found in [the plugin wiki article](https://github.com/ether/etherpad-lite/wiki/Available-Plugins).
+Collanote is very customizable through plugins. Instructions for installing themes and plugins can be found in [the plugin wiki article](https://github.com/ether/etherpad-lite/wiki/Available-Plugins).
 
 ## Helpful resources
 The [wiki](https://github.com/ether/etherpad-lite/wiki) is your one-stop resource for Tutorials and How-to's, really check it out! Also, feel free to improve these wiki pages.
@@ -92,13 +92,13 @@ Documentation can be found in `docs/`.
 # Development
 
 ## Things you should know
-Understand [git](https://training.github.com/) and watch this [video on getting started with Etherpad Development](http://youtu.be/67-Q26YH97E).
+Understand [git](https://training.github.com/) and watch this [video on getting started with Collanote Development](http://youtu.be/67-Q26YH97E).
 
 If you're new to node.js, start with Ryan Dahl's [Introduction to Node.js](http://youtu.be/jo_B4LTHi3I).
 
-You can debug Etherpad using `bin/debugRun.sh`.
+You can debug Collanote using `bin/debugRun.sh`.
 
-If you want to find out how Etherpad's `Easysync` works (the library that makes it really realtime), start with this [PDF](https://github.com/ether/etherpad-lite/raw/master/doc/easysync/easysync-full-description.pdf) (complex, but worth reading).
+If you want to find out how Collanote's `Easysync` works (the library that makes it really realtime), start with this [PDF](https://github.com/ether/etherpad-lite/raw/master/doc/easysync/easysync-full-description.pdf) (complex, but worth reading).
 
 ## Getting started
 You know all this and just want to know how you can help?
@@ -117,7 +117,7 @@ Join the [mailinglist](http://groups.google.com/group/etherpad-lite-dev) and mak
 * [async-stacktrace](https://github.com/Pita/async-stacktrace) "Improves node.js stacktraces and makes it easier to handle errors"
 
 # Donate!
-* [Flattr] (http://flattr.com/thing/71378/Etherpad-Foundation)
+* [Flattr] (http://flattr.com/thing/71378/Collanote-Foundation)
 * Paypal - Press the donate button on [etherpad.org](http://etherpad.org)
 * [Bitcoin] (https://coinbase.com/checkouts/1e572bf8a82e4663499f7f1f66c2d15a)
 

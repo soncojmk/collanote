@@ -48,7 +48,7 @@
 	"pad.importExport.import": "Įkelkite bet kokį tekstinį failą arba dokumentą",
 	"pad.importExport.importSuccessful": "Pavyko!",
 	"pad.importExport.export": "Eksportuoti dabartinį bloknotą kaip:",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "Paprastasis tekstas",
 	"pad.importExport.exportword": "Microsoft Word",

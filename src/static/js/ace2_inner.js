@@ -1,5 +1,5 @@
 /**
- * This code is mostly from the old Etherpad. Please help us to comment this code.
+ * This code is mostly from the old Collanote. Please help us to comment this code.
  * This helps other people to understand this code better and helps them to improve it.
  * TL;DR COMMENTS ON THIS FILE ARE HIGHLY APPRECIATED
  */
@@ -1782,9 +1782,9 @@ function Ace2Inner(){
     return !!STYLE_ATTRIBS[aname];
   }
 
-  function isIncorpedAttribute(aname)
+  function isOtherIncorpedAttribute(aname)
   {
-    return ( !! STYLE_ATTRIBS[aname]) || ( !! OTHER_INCORPED_ATTRIBS[aname]);
+    return !!OTHER_INCORPED_ATTRIBS[aname];
   }
 
   function insertDomLines(nodeToAddAfter, infoStructs, isTimeUp)
@@ -2526,7 +2526,6 @@ function Ace2Inner(){
 
   function doIncorpLineSplice(startLine, deleteCount, newLineEntries, lineAttribs, hints)
   {
-
     var startOldChar = rep.lines.offsetOfIndex(startLine);
     var endOldChar = rep.lines.offsetOfIndex(startLine + deleteCount);
 
@@ -2760,7 +2759,7 @@ function Ace2Inner(){
   {
     function incorpedAttribFilter(anum)
     {
-      return isStyleAttribute(rep.apool.getAttribKey(anum));
+      return !isOtherIncorpedAttribute(rep.apool.getAttribKey(anum));
     }
 
     function attribRuns(attribs)
@@ -3701,7 +3700,7 @@ function Ace2Inner(){
         }
       }
       else if (evt.key === "Dead"){
-        // If it's a dead key we don't want to do any Etherpad behavior.
+        // If it's a dead key we don't want to do any Collanote behavior.
         stopped = true;
         return true;
       }

@@ -41,7 +41,7 @@
 	"pad.importExport.import": "Încarcă orice fișier text sau document",
 	"pad.importExport.importSuccessful": "Succes!",
 	"pad.importExport.export": "Exportă pad-ul curent ca:",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "Text brut",
 	"pad.importExport.exportword": "Microsoft Word",

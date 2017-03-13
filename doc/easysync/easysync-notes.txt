@@ -1,6 +1,6 @@
 
 
-Copied from the old Etherpad. Found in /infrastructure/ace/
+Copied from the old Collanote. Found in /infrastructure/ace/
 
 Goals:
 

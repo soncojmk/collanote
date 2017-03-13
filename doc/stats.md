@@ -1,5 +1,5 @@
 # Statistics
-Etherpad keeps track of the goings-on inside the edit machinery. If you'd like to have a look at this, just point your browser to `/stats`.
+Collanote keeps track of the goings-on inside the edit machinery. If you'd like to have a look at this, just point your browser to `/stats`.
 
 We currently measure:
 

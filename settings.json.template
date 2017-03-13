@@ -8,7 +8,7 @@
 */
 {
   // Name your instance!
-  "title": "Etherpad",
+  "title": "Collanote",
 
   // favicon default name
   // alternatively, set up a fully specified Url to your own favicon
@@ -26,7 +26,7 @@
   // this is disabled by default
   //
   // make sure to have the minimum and correct file access permissions set
-  // so that the Etherpad server can access them
+  // so that the Collanote server can access them
 
   "ssl" : {
             "key"  : "/path-to-your/epl-server.key",
@@ -56,7 +56,7 @@
   */
 
   //the default text of a pad
-  "defaultPadText" : "Welcome to Etherpad!\n\nThis pad text is synchronized as you type, so that everyone viewing this page sees the same text. This allows you to collaborate seamlessly on documents!\n\nGet involved with Etherpad at http:\/\/etherpad.org\n",
+  "defaultPadText" : "Welcome to Collanote!\n\nThis notebook's text is synchronized as you type, so that everyone viewing this page sees the same text. This allows you to collaborate seamlessly on documents!\n",
 
   /* Default Pad behavior, users can override by changing */
   "padOptions": {
@@ -139,7 +139,7 @@
   // restrict socket.io transport methods
   "socketTransportProtocols" : ["xhr-polling", "jsonp-polling", "htmlfile"],
 
-  // Allow Load Testing tools to hit the Etherpad Instance.  Warning this will disable security on the instance.
+  // Allow Load Testing tools to hit the Collanote Instance.  Warning this will disable security on the instance.
   "loadTest": false,
 
   // Disable indentation on new line when previous line ends with some special chars (':', '[', '(', '{')

@@ -47,7 +47,7 @@
 	"pad.importExport.import": "あらゆるテキストファイルや文書をアップロードできます",
 	"pad.importExport.importSuccessful": "完了しました。",
 	"pad.importExport.export": "現在のパッドをエクスポートする形式:",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "プレーンテキスト",
 	"pad.importExport.exportword": "Microsoft Word",

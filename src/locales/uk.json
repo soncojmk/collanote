@@ -52,7 +52,7 @@
 	"pad.importExport.import": "Завантажити будь-який текстовий файл або документ",
 	"pad.importExport.importSuccessful": "Успішно!",
 	"pad.importExport.export": "Експортувати поточний документ як:",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "Звичайний текст",
 	"pad.importExport.exportword": "Microsoft Word",

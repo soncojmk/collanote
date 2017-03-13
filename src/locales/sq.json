@@ -47,7 +47,7 @@
 	"pad.importExport.import": "Ngarkoni cilëndo kartelë teksti ose dokument",
 	"pad.importExport.importSuccessful": "Me sukses!",
 	"pad.importExport.export": "Eksportojeni bllokun e tanishëm si:",
-	"pad.importExport.exportetherpad": "Etherpad",
+	"pad.importExport.exportetherpad": "Collanote",
 	"pad.importExport.exporthtml": "HTML",
 	"pad.importExport.exportplain": "Tekst të thjeshtë",
 	"pad.importExport.exportword": "Microsoft Word",
