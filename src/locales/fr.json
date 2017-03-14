@@ -102,7 +102,7 @@
 	"pad.share.readonly": "Lecture seule",
 	"pad.share.link": "Lien",
 	"pad.share.emebdcode": "Incorporer un lien",
-	"pad.chat": "Chat",
+	"pad.chat": "Question",
 	"pad.chat.title": "Ouvrir le chat de ce pad.",
 	"pad.chat.loadmessages": "Charger davantage de messages",
 	"timeslider.pageTitle": "Historique dynamique de {{appTitle}}",

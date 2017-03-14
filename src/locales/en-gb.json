@@ -82,7 +82,7 @@
 	"pad.share.readonly": "Read only",
 	"pad.share.link": "Link",
 	"pad.share.emebdcode": "Embed URL",
-	"pad.chat": "Chat",
+	"pad.chat": "Question",
 	"pad.chat.title": "Open the chat for this pad.",
 	"pad.chat.loadmessages": "Load more messages",
 	"timeslider.pageTitle": "{{appTitle}} Timeslider",

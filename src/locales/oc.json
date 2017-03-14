@@ -81,7 +81,7 @@
 	"pad.share.readonly": "Lectura sola",
 	"pad.share.link": "Ligam",
 	"pad.share.emebdcode": "Ligam d'integrar",
-	"pad.chat": "Chat",
+	"pad.chat": "Question",
 	"pad.chat.title": "Dobrir lo chat associat a aqueste pad.",
 	"pad.chat.loadmessages": "Cargar mai de messatges.",
 	"timeslider.pageTitle": "Istoric dinamic de {{appTitle}}",
