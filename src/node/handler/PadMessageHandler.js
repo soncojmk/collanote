@@ -368,6 +368,8 @@ function handleChatMessage(client, message)
   var text = message.data.text;
   var padId = sessioninfos[client.id].padId;
 
+  hooks.aCallAll("chatMessage", {text: text})
+
   exports.sendChatMessageToPadClients(time, userId, text, padId);
 }
 
