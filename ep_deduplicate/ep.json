@@ -1,0 +1,10 @@
+{
+  "parts": [
+    {
+      "name": "ep_deduplicate",
+      "hooks": {
+        "eejsBlock_styles":"ep_deduplicate/index:eejsBlock_styles"
+      }
+    }
+  ]
+}
