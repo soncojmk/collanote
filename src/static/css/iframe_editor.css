@@ -150,3 +150,7 @@ p {
   overflow:hidden;
 }
 */
+
+::-webkit-scrollbar {
+    display: none;
+}
