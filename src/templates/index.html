@@ -46,23 +46,16 @@
               margin: 0;
               color: #333;
               font: 14px helvetica, sans-serif;
-              background: #ddd;
-              background: -webkit-radial-gradient(circle,#aaa,#eee 60%) center fixed;
-              background: -moz-radial-gradient(circle,#aaa,#eee 60%) center fixed;
-              background: -ms-radial-gradient(circle,#aaa,#eee 60%) center fixed;
-              background: -o-radial-gradient(circle,#aaa,#eee 60%) center fixed;
+              background-color: #05d3fc !important;
               border-top: 8px solid rgba(51,51,51,.8);
             }
             #wrapper {
               border-top: 1px solid #999;
-              margin-top: 160px;
-              padding: 15px;
-              background: #eee;
-              background: -webkit-linear-gradient(#fff,#ccc);
-              background: -moz-linear-gradient(#fff,#ccc);
-              background: -ms-linear-gradient(#fff,#ccc);
-              background: -o-linear-gradient(#fff,#ccc);
-              box-shadow: 0px 1px 8px rgba(0,0,0,0.3);
+              margin: 160px auto;
+              width: 30em;
+              padding: 40px;
+              background: #f0f0f0;
+              box-shadow: 0px 1px 8px rgba(0,0,0,0.2);
             }
             #inner {
               position:relative;
@@ -79,20 +72,12 @@
               text-shadow: 0 -1px 0 rgba(0,0,0,.8);
               height: 70px;
               line-height: 70px;
-              background: #555;
-              background: -webkit-linear-gradient(#5F5F5F,#565656 50%,#4C4C4C 51%,#373737);
-              background: -moz-linear-gradient(#5F5F5F,#565656 50%,#4C4C4C 51%,#373737);
-              background: -ms-linear-gradient(#5F5F5F,#565656 50%,#4C4C4C 51%,#373737);
-              background: -o-linear-gradient(#5F5F5F,#565656 50%,#4C4C4C 51%,#373737);
+              background: #666;
               box-shadow: inset 0 1px 3px rgba(0,0,0,0.9);
             }
             #button:hover {
               cursor: pointer;
-              background: #666;
-              background: -webkit-linear-gradient(#707070,#666666 50%,#5B5B5B 51%,#474747);
-              background: -moz-linear-gradient(#707070,#666666 50%,#5B5B5B 51%,#474747);
-              background: -ms-linear-gradient(#707070,#666666 50%,#5B5B5B 51%,#474747);
-              background: -o-linear-gradient(#707070,#666666 50%,#5B5B5B 51%,#474747);
+              background: #555;
             }
             #button:active {
               box-shadow: inset 0 1px 12px rgba(0,0,0,0.9);
@@ -107,6 +92,7 @@
             #padname{
               height:38px;
               max-width:280px;
+              background-color: #ffffff;
             }
             form {
               height: 38px;
@@ -116,8 +102,11 @@
               position: relative;
             }
             button, input {
+              color: #333333;
               font-weight: bold;
               font-size: 15px;
+              background-color: #ffffff;
+              border: none;
             }
             input[type="text"] {
               border-radius: 3px;
@@ -161,7 +150,7 @@
         <div id="wrapper">
         <% e.begin_block("indexWrapper"); %>
             <div id="inner">
-                <buttOn id="button" onclick="go2Random()" data-l10n-id="index.newPad"></button>
+                <button id="button" onclick="go2Random()" data-l10n-id="index.newPad"></button>
                 <label id="label" for="padname" data-l10n-id="index.createOpenPad"></label>
                 <form action="#" onsubmit="go2Name();return false;">
                     <input type="text" id="padname" maxlength="50" autofocus x-webkit-speech>

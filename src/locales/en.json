@@ -1,6 +1,6 @@
 {
-  "index.newPad": "New Pad",
-  "index.createOpenPad": "or create/open a Pad with the name:",
+  "index.newPad": "New Notebook",
+  "index.createOpenPad": "or open a notebook with the name:",
 
   "pad.toolbar.bold.title": "Bold (Ctrl+B)",
   "pad.toolbar.italic.title": "Italic (Ctrl+I)",
@@ -17,19 +17,19 @@
   "pad.toolbar.timeslider.title": "Timeslider",
   "pad.toolbar.savedRevision.title": "Save Revision",
   "pad.toolbar.settings.title": "Settings",
-  "pad.toolbar.embed.title": "Share and Embed this pad",
-  "pad.toolbar.showusers.title": "Show the users on this pad",
+  "pad.toolbar.embed.title": "Share and Embed this notebook",
+  "pad.toolbar.showusers.title": "Show the users on this notebook",
 
   "pad.colorpicker.save": "Save",
   "pad.colorpicker.cancel": "Cancel",
 
-  "pad.loading": "Loading...",
+  "pad.loading": "Preparing your notebook...",
   "pad.noCookie": "Cookie could not be found. Please allow cookies in your browser!",
-  "pad.passwordRequired": "You need a password to access this pad",
-  "pad.permissionDenied": "You do not have permission to access this pad",
+  "pad.passwordRequired": "You need a password to access this notebook",
+  "pad.permissionDenied": "You do not have permission to access this notebook",
   "pad.wrongPassword": "Your password was wrong",
 
-  "pad.settings.padSettings": "Pad Settings",
+  "pad.settings.padSettings": "Notebook Settings",
   "pad.settings.myView": "My View",
   "pad.settings.stickychat": "Chat always on screen",
   "pad.settings.chatandusers": "Show Chat and Users",
@@ -62,7 +62,7 @@
   "pad.importExport.import_export": "Import/Export",
   "pad.importExport.import": "Upload any text file or document",
   "pad.importExport.importSuccessful": "Successful!",
-  "pad.importExport.export": "Export current pad as:",
+  "pad.importExport.export": "Export current notebook as:",
   "pad.importExport.exportetherpad": "Collanote",
   "pad.importExport.exporthtml": "HTML",
   "pad.importExport.exportplain": "Plain text",
@@ -72,11 +72,11 @@
   "pad.importExport.abiword.innerHTML": "You only can import from plain text or HTML formats. For more advanced import features please <a href=\"https://github.com/ether/etherpad-lite/wiki/How-to-enable-importing-and-exporting-different-file-formats-in-Ubuntu-or-OpenSuse-or-SLES-with-AbiWord\">install abiword</a>.",
 
   "pad.modals.connected": "Connected.",
-  "pad.modals.reconnecting": "Reconnecting to your pad..",
+  "pad.modals.reconnecting": "Reconnecting to your notebook..",
   "pad.modals.forcereconnect": "Force reconnect",
 
   "pad.modals.userdup": "Opened in another window",
-  "pad.modals.userdup.explanation": "This pad seems to be opened in more than one browser window on this computer.",
+  "pad.modals.userdup.explanation": "This notebook seems to be opened in more than one browser window on this computer.",
   "pad.modals.userdup.advice": "Reconnect to use this window instead.",
 
   "pad.modals.unauth": "Not authorized",
@@ -95,26 +95,26 @@
   "pad.modals.badChangeset.explanation": "An edit you have made was classified illegal by the synchronization server.",
   "pad.modals.badChangeset.cause": "This could be due to a wrong server configuration or some other unexpected behavior. Please contact the service administrator, if you feel this is an error. Try to reconnect in order to continue editing.",
 
-  "pad.modals.corruptPad.explanation": "The pad you are trying to access is corrupt.",
+  "pad.modals.corruptPad.explanation": "The notebook you are trying to access is corrupt.",
   "pad.modals.corruptPad.cause": "This may be due to a wrong server configuration or some other unexpected behavior. Please contact the service administrator.",
 
   "pad.modals.deleted": "Deleted.",
-  "pad.modals.deleted.explanation": "This pad has been removed.",
+  "pad.modals.deleted.explanation": "This notebook has been removed.",
 
   "pad.modals.disconnected": "You have been disconnected.",
   "pad.modals.disconnected.explanation": "The connection to the server was lost",
   "pad.modals.disconnected.cause": "The server may be unavailable. Please notify the service administrator if this continues to happen.",
 
-  "pad.share": "Share this pad",
+  "pad.share": "Share this notebook",
   "pad.share.readonly": "Read only",
   "pad.share.link": "Link",
   "pad.share.emebdcode": "Embed URL",
-  "pad.chat": "Question",
-  "pad.chat.title": "Open the chat for this pad.",
+  "pad.chat": "Chat & Questions",
+  "pad.chat.title": "Open the chat for this notebook.",
   "pad.chat.loadmessages": "Load more messages",
 
   "timeslider.pageTitle": "{{appTitle}} Timeslider",
-  "timeslider.toolbar.returnbutton": "Return to pad",
+  "timeslider.toolbar.returnbutton": "Return to notebook",
   "timeslider.toolbar.authors": "Authors:",
   "timeslider.toolbar.authorsList": "No Authors",
   "timeslider.toolbar.exportlink.title": "Export",
@@ -122,9 +122,9 @@
   "timeslider.version": "Version {{version}}",
   "timeslider.saved": "Saved {{month}} {{day}}, {{year}}",
 
-  "timeslider.playPause": "Playback / Pause Pad Contents",
-  "timeslider.backRevision":"Go back a revision in this Pad",
-  "timeslider.forwardRevision":"Go forward a revision in this Pad",
+  "timeslider.playPause": "Play or pause notebook contents",
+  "timeslider.backRevision":"Go back a revision in this notebook",
+  "timeslider.forwardRevision":"Go forward a revision in this notebook",
 
   "timeslider.dateformat": "{{month}}/{{day}}/{{year}} {{hours}}:{{minutes}}:{{seconds}}",
   "timeslider.month.january": "January",
@@ -152,9 +152,9 @@
 
   "pad.impexp.importbutton": "Import Now",
   "pad.impexp.importing": "Importing...",
-  "pad.impexp.confirmimport": "Importing a file will overwrite the current text of the pad. Are you sure you want to proceed?",
+  "pad.impexp.confirmimport": "Importing a file will overwrite the current text of the notebook. Are you sure you want to proceed?",
   "pad.impexp.convertFailed": "We were not able to import this file. Please use a different document format or copy paste manually",
-  "pad.impexp.padHasData": "We were not able to import this file because this Pad has already had changes, please import to a new pad",
+  "pad.impexp.padHasData": "We were not able to import this file because this notebook has already had changes, please import to a new pad",
   "pad.impexp.uploadFailed": "The upload failed, please try again",
   "pad.impexp.importfailed": "Import failed",
   "pad.impexp.copypaste": "Please copy paste",

@@ -8,10 +8,16 @@ p.pblort {
   overflow: auto;
   top: 40px;
   position: static;
+  background-color: #05d3fc;
 }
 #padcontent {
   font-size: 12px;
   padding: 10px;
+  margin: 20px auto;
+  width: 650px !important;
+  padding: 100px;
+  min-height: 60em;
+  background-color: #ffffff;
 }
 #timeslider-wrapper {
   left: 0;
@@ -20,14 +26,14 @@ p.pblort {
   top: 0;
 }
 #timeslider-left {
-  background-color:#fff;
+  background-color: #f7f7f7;
   height: 63px;
   left: 0;
   position: absolute;
   width: 134px;
 }
 #timeslider-right {
-  background-color:#fff;
+  background-color: #f7f7f7;
   height: 63px;
   position: absolute;
   right: 0;
@@ -35,7 +41,7 @@ p.pblort {
   width: 155px;
 }
 #timeslider {
-  height: 63px;
+  height: 30px;
   margin: 0 9px;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -43,11 +49,11 @@ p.pblort {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color:#fff;
+  background-color: #f7f7f7;
   /* bgcolor is reuqired so you can't see pad content behind it */
 }
 #timeslider #timeslider-slider {
-  height: 61px;
+  height: 30px;
   left: 0;
   position: absolute;
   top: 1px;
@@ -57,20 +63,32 @@ p.pblort {
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
-  background-color: #666;
+  background-color: #fff;
+  border: #666 solid 1px;
+  height: 20px;
+  width: 22px !important;
+  text-align: center;
   cursor: pointer;
-  height: 61px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 13px;
+  width: 20px;
+  padding: 0 1px;
+  line-height: 24px;
+  color: #666;
+  border-radius: 2px;
+  top: 3px;
+}
+#ui-slider-handle:before {
+    content: "🢐🢒";
+    font-size: 30px;
 }
 #ui-slider-bar {
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
   cursor: pointer;
-  height: 60px;
+  height: 30px;
   margin-left: 5px;
   margin-right: 150px;
   position: relative;
@@ -79,43 +97,42 @@ p.pblort {
 
 #playpause_button,
 #playpause_button_icon {
-  height: 44px;
+  font-family: fontawesome-etherpad;
+/*  line-height:18px; */
+  text-align:center;
+  height:20px;
+  color:#666;
   position: absolute;
-  width: 44px;
+  width: 22px;
   text-align:center;
   vertical-align:middle;
-  background:none;
+  background: #ffffff;
+  border: none;
+  top: 3px;
 }
 #playpause_button {
-  right: 77px;
-  top: 9px;
-  height:50px;
-  height:50px;
+  right: 64px;
+  border-radius:2px;
+  border: #666 solid 1px;
   background: background-linear-gradient( #F7F7F7, #F1F1F1 80%) repeat scroll 0 0 transparent;
-  border-radius:24px;
-  cursor:hand;
 }
 #playpause_button_icon:before {
-  line-height:44px;
+  line-height:18px;
   padding-left:2px;
   font-family: fontawesome-etherpad;
   content: "\e82c";
-  font-size:24px;
   color:#666;
 }
 
 #playpause_button_icon {
   left: 0;
   top: 0;
-  border-radius:48px;
-  border: solid 1px #666;
 }
 .pause:before {
-  line-height:44px;
+  line-height:18px;
   padding-left:2px;
   font-family: fontawesome-etherpad;
   content: "\e82e" !important;
-  font-size:24px;
   color:#666;
   padding-left:0 !important;
 }
@@ -126,6 +143,7 @@ p.pblort {
   background-color: white;
   overflow: hidden;
   position: absolute;
+  top: 3px;
 }
 
 .stepper{
@@ -144,7 +162,6 @@ stepper:active{
 
 #leftstep {
   right: 38px;
-  top: 20px;
   width: 25px;
 }
 #leftstep:before{
@@ -158,7 +175,6 @@ stepper:active{
 
 #rightstep {
   right: 12px;
-  top: 20px;
   width: 25px;
 }
 .star:before{
@@ -171,27 +187,29 @@ stepper:active{
   cursor: pointer;
   height: 16px;
   position: absolute;
-  top: 25px;
+  top: 5px;
+  left: 1163px !important;
   width: 15px;
 }
 #timeslider #timer {
-  background: linear-gradient(#F7F7F7, #F1F1F1 80%) repeat scroll 0% 0% transparent;
-  padding:2px;
-  border-radius:2px;
+  display: none;
+  background: transparent;
   font-family: Arial, sans-serif;
   font-size: 11px;
-  left: 7px;
+  left: -4px;
   position: absolute;
   text-align: center;
   top: 9px;
   width: 122px;
+  z-index: 9999;
 }
 .topbarcenter,
 #docbar {
   display: none
 }
 #padmain {
-  top: 0px !important
+  top: 0px !important;
+  background-color: #05d3fc;
 }
 #editbar{
   -webkit-touch-callout: none;
@@ -212,7 +230,7 @@ stepper:active{
   height:30px;
 }
 #import_export, #settings{
-  top: 115px;
+  top: 84px;
   position: fixed;
 }
 #import_export .popup {
@@ -226,11 +244,6 @@ stepper:active{
 }
 .timeslider-bar {
   background: #f7f7f7;
-  background: -webkit-linear-gradient(#f7f7f7, #f1f1f1 80%);
-  background: -moz-linear-gradient(#f7f7f7, #f1f1f1 80%);
-  background: -o-linear-gradient(#f7f7f7, #f1f1f1 80%);
-  background: -ms-linear-gradient(#f7f7f7, #f1f1f1 80%);
-  background: linear-gradient(#f7f7f7, #f1f1f1 80%);
   overflow: hidden;
   padding-top: 3px;
   width: 100%;

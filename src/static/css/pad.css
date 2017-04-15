@@ -25,11 +25,6 @@ iframe {
 
 #users {
   background: #f7f7f7;
-  background: -webkit-linear-gradient( #F7F7F7,#EEE);
-  background: -moz-linear-gradient( #F7F7F7,#EEE);
-  background: -ms-linear-gradient( #F7F7F7,#EEE);
-  background: -o-linear-gradient( #F7F7F7,#EEE);
-  background: linear-gradient( #F7F7F7,#EEE);
   width: 160px;
   color: #fff;
   padding: 5px;
@@ -46,11 +41,6 @@ a img {
 /* menu */
 .toolbar {
   background: #f7f7f7;
-  background: -webkit-linear-gradient(#f7f7f7, #f1f1f1 80%);
-  background: -moz-linear-gradient(#f7f7f7, #f1f1f1 80%);
-  background: -o-linear-gradient(#f7f7f7, #f1f1f1 80%);
-  background: -ms-linear-gradient(#f7f7f7, #f1f1f1 80%);
-  background: linear-gradient(#f7f7f7, #f1f1f1 80%);
   border-bottom: 1px solid #ccc;
   overflow: hidden;
   padding-top: 4px;
@@ -85,41 +75,21 @@ a img {
 }
 .toolbar ul li a:hover {
   background: #fff;
-  background: -webkit-linear-gradient(#f4f4f4, #e4e4e4);
-  background: -moz-linear-gradient(#f4f4f4, #e4e4e4);
-  background: -o-linear-gradient(#f4f4f4, #e4e4e4);
-  background: -ms-linear-gradient(#f4f4f4, #e4e4e4);
-  background: linear-gradient(#f4f4f4, #e4e4e4);
 }
 .toolbar ul li a:active {
   background: #eee;
-  background: -webkit-linear-gradient(#ddd, #fff);
-  background: -moz-linear-gradient(#ddd, #fff);
-  background: -o-linear-gradient(#ddd, #fff);
-  background: -ms-linear-gradient(#ddd, #fff);
-  background: linear-gradient(#ddd, #fff);
   -webkit-box-shadow: 0 0 8px rgba(0,0,0,.1) inset;
   -moz-box-shadow: 0 0 8px rgba(0,0,0,.1) inset;
   box-shadow: 0 0 8px rgba(0,0,0,.1) inset;
 }
 .toolbar ul li .activeButton {
   background: #eee;
-  background: -webkit-linear-gradient(#ddd, #fff);
-  background: -moz-linear-gradient(#ddd, #fff);
-  background: -o-linear-gradient(#ddd, #fff);
-  background: -ms-linear-gradient(#ddd, #fff);
-  background: linear-gradient(#ddd, #fff);
   -webkit-box-shadow: 0 0 8px rgba(0,0,0,.1) inset;
   -moz-box-shadow: 0 0 8px rgba(0,0,0,.1) inset;
   box-shadow: 0 0 8px rgba(0,0,0,.1) inset;
 }
 .toolbar ul li a {
   background: #fff;
-  background: -webkit-linear-gradient(#fff, #f0f0f0);
-  background: -moz-linear-gradient(#fff, #f0f0f0);
-  background: -o-linear-gradient(#fff, #f0f0f0);
-  background: -ms-linear-gradient(#fff, #f0f0f0);
-  background: linear-gradient(#fff, #f0f0f0);
   border: 1px solid #ccc;
   border-radius: 3px;
   color: #ccc;
@@ -170,11 +140,6 @@ a img {
 }
 .toolbar ul li a.selected {
   background: #eee !important;
-  background: -webkit-linear-gradient(#EEE, #F0F0F0) !important;
-  background: -moz-linear-gradient(#EEE, #F0F0F0) !important;
-  background: -o-linear-gradient(#EEE, #F0F0F0) !important;
-  background: -ms-linear-gradient(#EEE, #F0F0F0) !important;
-  background: linear-gradient(#EEE, #F0F0F0) !important;
 }
 .toolbar ul li select {
   background: #fff;
@@ -355,11 +320,6 @@ li[data-key=showusers] > a #online_count {
 #mycolorpickersave,
 #mycolorpickercancel {
   background: #fff;
-  background: -webkit-linear-gradient(#fff, #ccc);
-  background: -moz-linear-gradient(#fff, #ccc);
-  background: -o-linear-gradient(#fff, #ccc);
-  background: -ms-linear-gradient(#fff, #ccc);
-  background: linear-gradient(#fff, #ccc);
   border: 1px solid #ccc;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -401,7 +361,10 @@ li[data-key=showusers] > a #online_count {
   background: transparent;
 }
 #myusernameform input.editable {
-  border: 1px solid #444
+  border: 1px solid #444;
+}
+.chatAndUsers #myusernameform input.editable {
+  width: 340px;
 }
 #myuser .myusernameedithoverable:hover {
   background: white;
@@ -545,8 +508,8 @@ table#otheruserstable {
   position: absolute;
   bottom: 0px;
   right: 20px;
-  width: 180px;
-  height: 200px;
+  width: 350px;
+  height: 150px;
   z-index: 400;
   background-color: #f7f7f7;
   border-left: 1px solid #999;
@@ -561,8 +524,6 @@ table#otheruserstable {
 #chattext {
   background-color: white;
   border: 1px solid white;
-  -ms-overflow-y: scroll;
-  overflow-y: scroll;
   font-size: 12px;
   position: absolute;
   right: 0px;
@@ -608,6 +569,8 @@ table#otheruserstable {
   vertical-align: middle;
 }
 #chatinput {
+  background-color: #FFFFFF;
+  color: #000000;
   border: 1px solid #BBBBBB;
   width: 100%;
   float: right;
@@ -656,9 +619,10 @@ table#otheruserstable {
   color: #555;
 }
 #titlecross {
-  font-size: 25px;
+  position: relative;
+  top: 4px;
+  font-size: 13px;
   float: right;
-  text-align: right;
   text-decoration: none;
   cursor: pointer;
   color: #555;
@@ -865,11 +829,6 @@ input[type=checkbox] {
   border: 1px solid #ccc;
   border-top: none;
   background: #f7f7f7;
-  background: -webkit-linear-gradient(#F7F7F7, #EEE);
-  background: -moz-linear-gradient(#F7F7F7, #EEE);
-  background: -ms-linear-gradient(#F7F7F7, #EEE);
-  background: -o-linear-gradient(#F7F7F7, #EEE);
-  background: linear-gradient(#F7F7F7, #EEE);
   -webkit-box-shadow: 0 0 8px #888;
   -moz-box-shadow: 0 0 8px #888;
   box-shadow: 0 2px 4px #ddd;
@@ -940,13 +899,13 @@ input[type=checkbox] {
   height: auto !important;
   border: none !important;
   border-left: 1px solid #ccc !important;
-  width: 185px !important;
+  width: 380px !important;
 }
 .chatAndUsers{
   display:block !important;
   right:0px !important;
   border-radius:0px !important;
-  width:182px !important;
+  width:380px !important;
 /* Below makes UI look weird when X makes editbar flow onto two lines */
 /*  margin:2px 0 0 0 !important;*/
   border: none !important;
@@ -966,7 +925,7 @@ input[type=checkbox] {
   padding:0 !important;
   margin: 165px 0px 0px 0px;
   right:0 !important;
-  width:182px !important;
+  width:380px !important;
   border: none !important;
   padding:5px !important;
   border-left: 1px solid #ccc !important;
@@ -1068,11 +1027,6 @@ input[type=checkbox] {
     }
     .toolbar ul {
       background: #f7f7f7;
-      background: -webkit-linear-gradient(#f7f7f7, #f1f1f1 80%);
-      background: -moz-linear-gradient(#f7f7f7, #f1f1f1 80%);
-      background: -o-linear-gradient(#f7f7f7, #f1f1f1 80%);
-      background: -ms-linear-gradient(#f7f7f7, #f1f1f1 80%);
-      background: linear-gradient(#f7f7f7, #f1f1f1 80%);
       width: 100%;
       overflow: hidden;
     }
@@ -1301,8 +1255,110 @@ input[type=checkbox] {
 .hideControlsEditor{
   top:0px !important;
 }
+
 .hideControlsEditbar{
   display:none !important;
 }
 
+/* page_view overrides */
 
+#editorcontainer iframe.page_view {
+    padding: 0;
+}
+
+html body#outerdocbody.outerdocbody {
+    background-color: #05d3fc !important;
+    padding-top: 20px;
+}
+
+.pageBreakComputed {
+    background-color: #05d3fc !important;
+}
+
+/* end page_view overrides */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+::-moz-scrollbar {
+    display: none;
+}
+
+h1.logo {
+  position: absolute;
+  top: 9px;
+  left: calc(50% - 50px);
+  width: 100px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* comment overrides */
+note .comment-delete-container {
+    background-color: transparent;
+    margin-left: 0px;
+    text-align: right;
+    height: 5px;
+}
+
+note .comment-delete {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #transparent;
+    font-size: 16px;
+    position: relative;
+    top: 6px;
+    right: 3px;
+}
+
+note .comment-delete:before {
+    content: "×" !important;
+}
+
+note .comment-reply-input {
+    background-color: #ffffff;
+    margin-top: 0px;
+    width: 182px;
+    border: solid 1px #ccc;
+}
+
+note .comment-reply {
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+note .comment-reply-input-label {
+    line-height: 20px;
+}
+
+.comment-reply-input-label span {
+    font-size: 10px;
+}
+
+note .sidebar-comment-reply {
+    padding: 0;
+    margin: 0;
+}
+
+note .reply-suggestion {
+    font-size: 8px;
+    line-height: 10px;
+}
+
+note .reply-comment-suggest-to {
+    border: 1px solid #ccc;
+    width: 182px;
+    color: #666;
+}
+
+note .sidebar-comment-reply:nth-child(2n) {
+    background-color: #ffffff;
+}
+
+.comment-changeTo-form p,
+.comment-changeTo-form span {
+    font-size: 8px;
+    line-height: 10px;
+}
+
+/* end comment overrides */
