@@ -531,6 +531,7 @@ table#otheruserstable {
   top: 25px;
   bottom: 25px;
   z-index: 1002;
+  overflow-y: scroll;
 }
 #chattext p {
   padding: 3px;
